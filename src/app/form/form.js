@@ -31,7 +31,7 @@ angular.module('multistepFormApp.form', [
             })
 
             // URL: form/stepThree
-            .state('form.stepTwo', {
+            .state('form.stepThree', {
                 url: '/stepThree',
                 templateUrl: 'form/stepThree.tpl.html'
             });
