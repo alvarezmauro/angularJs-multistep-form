@@ -5,7 +5,7 @@
  * automatically.
  */
 describe( 'home section', function() {
-  beforeEach( module( 'ngBoilerplate.home' ) );
+  beforeEach( module( 'multistepFormApp.about' ) );
 
   it( 'should have a dummy test', inject( function() {
     expect( true ).toBeTruthy();
