@@ -9,7 +9,7 @@ angular.module( 'multistepFormApp', [
 .config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {
 
         // catch all route
-        // send users to the form page*/
+        // send users to the form page - Step one*/
         $urlRouterProvider.otherwise('/form/stepOne');
 
 })
